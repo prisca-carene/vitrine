@@ -176,14 +176,14 @@ app.post('/api/contact', async (req, res) => {
       port: 465,
       secure: true,
       auth: {
-        user: 'contact@publithings.fr',       // <-- remplace ici
-        pass: '_s!Fh#3Ko{.Hy@_?45'       // <-- et ici
+        user: ''       // <-- remplace ici
+        pass: ''       // <-- et ici
       },
       logger: true, // logs dans la console
-  debug: true   // affiche les échanges avec le serveur SMTP
+  debug: true   // affiche les Ã©changes avec le serveur SMTP
     });
 
-    // Email HTML formaté
+    // Email HTML formatÃ©
     const htmlContent = `
       <h2>Nouveau contact depuis catalogue Publithings</h2>
       <p><strong>Nom :</strong> ${name}</p>
@@ -196,9 +196,9 @@ app.post('/api/contact', async (req, res) => {
 
     // Configuration du mail
     const mailOptions = {
-      from: `"${name}" <contact@publithings.fr>`,  // <- adresse autorisée
+      from: `"${name}" <contact@publithings.fr>`,  // <- adresse autorisÃ©e
       to: 'seo+catalogue@publithings.com',
-      replyTo: email,                              // <- redirige la réponse vers l'expéditeur
+      replyTo: email,                              // <- redirige la rÃ©ponse vers l'expÃ©diteur
       subject: `[Catalogue] ${subject} - xSponso xCatalogue`,
       html: htmlContent
     };
@@ -206,10 +206,10 @@ app.post('/api/contact', async (req, res) => {
     // Envoi
     await transporter.sendMail(mailOptions);
 
-    res.status(200).json({ success: true, message: 'Message envoyé avec succès.' });
+    res.status(200).json({ success: true, message: 'Message envoyÃ© avec succÃ¨s.' });
   } catch (err) {
     console.error('Erreur SMTP :', err);
-    res.status(500).json({ error: 'Erreur lors de l’envoi de l’e-mail.' });
+    res.status(500).json({ error: 'Erreur lors de lâ€™envoi de lâ€™e-mail.' });
   }
 });
 
