@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="header.title">Publithings Media Group</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo_publithings.svg" 
+                     alt="Publithings" 
+                     style="height: 40px; width: auto;">
+            </div>
+            <div class="header-actions">
+                <div class="language-switcher">
+                    <button class="language-btn active" data-lang="fr">FR</button>
+                    <button class="language-btn" data-lang="en">EN</button>
+                </div>
+                <a href="#sites"><button class="cta-button" data-i18n="header.viewCatalog">Voir le catalogue</button></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge" data-i18n="hero.badge">Price list SEO Netlinking</div>
+            <h1 class="hero-title">
+                <span data-i18n="hero.titleStart">Accélérez votre croissance digitale avec notre réseau média premium</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
+                Valorisez votre marque sur des médias influents grâce à des campagnes de netlinking, des contenus sponsorisés et des newsletters à forte portée.
+            </p>
+            <div class="hero-cta">
+                <a href="#sites"><button class="primary-button">
+                    <span data-i18n="hero.discover">Découvrir nos marques</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button></a>
+                <a href="#contact-form"><button class="secondary-button" data-i18n="hero.contact">
+                    Nous contacter
+                </button></a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-value">98%</div>
+                    <div class="stat-label" data-i18n="hero.stats.satisfaction">Taux de satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">1.2M+</div>
+                    <div class="stat-label" data-i18n="hero.stats.visitors">Visiteurs mensuels</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">4.9/5</div>
+                    <div class="stat-label" data-i18n="hero.stats.rating">Note moyenne</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/bg-publithings.png" 
+                 alt="Dashboard visualization" 
+                 class="floating-image">
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="features.title">Pourquoi choisir nos marques ?</h2>
+                <p data-i18n="features.subtitle">Notre réseau a été pensé pour générer des résultats concrets et durables en référencement naturel. En choisissant nos marques, vous accédez à une sélection rigoureuse de médias premium à haute autorité, soigneusement retenus selon des critères exigeants : autorité de domaine (DR), volume de trafic organique élevé, profil qualitatif de backlinks, cohérence thématique et historique SEO irréprochable.<br>Cette exigence vous garantit des liens pertinents, fiables et puissants, qui renforcent significativement l’efficacité et la portée de votre stratégie de référencement naturel.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-i18n="features.metrics.title">Metrics transparentes</h3>
+                    <p data-i18n="features.metrics.description">Nous vous donnons accès aux métriques essentielles pour chaque média : Domain Rating (DR), volume de trafic, nombre et qualité des backlinks entrants, ainsi que d'autres indicateurs clés SEO. Cette transparence totale vous permet de choisir en toute confiance les marques les mieux adaptés à vos objectifs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 data-i18n="features.trust.title">Marques de confiance</h3>
+                    <p data-i18n="features.trust.description">Tous nos médias sont soigneusement vérifiés, actifs, régulièrement mis à jour et indexés par Google. Aucun risque de pénalité : votre stratégie de netlinking s'inscrit dans un cadre sécurisé, durable et performant.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 data-i18n="features.speed.title">Publication rapide</h3>
+                    <p data-i18n="features.speed.description">Optimisez votre planning : vos articles sponsorisés sont publiés en moins de 72 heures après validation. Réactivité, efficacité et résultats rapides sont au coeur de notre service, pour maximiser immédiatement l'impact de vos campagnes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="guidelines">
+        <div class="container">
+            <div class="section-header">
+            <!-- Add this section inside the features section, after the subtitle paragraph -->
+              <div class="video-section">
+                <div class="video-content">
+                  <h2 data-i18n="guidelines.title">Comment ça marche ?</h2>
+                  <p data-i18n="guidelines.subtitle">Notre processus est conçu pour être intuitif et fluide afin de vous simplifier la vie. Soumettez simplement votre contenu en respectant les consignes indiquées, validez rapidement votre commande et bénéficiez d'une publication rapide sur notre réseau exclusif. Profitez également de réductions avantageuses et d'un paiement sécurisé pour optimiser facilement votre stratégie SEO.</p>
+                </div>
+                <div class="video-player">
+                  <div class="play-button" onclick="playVideo(this)">
+                    <i class="fas fa-play"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guidelines-grid">
+                <div class="guideline-card">
+                    <div class="guideline-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 data-i18n="guidelines.publication.title">Consignes de publication</h3>
+                    <ul class="guideline-list">
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.publication.length">Longueur : 800 mots</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.publication.externalLinks">2 liens externes dofollow</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.publication.internalLinks">1 lien interne dofollow</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.publication.validation">Publication après validation</span></li>
+                    </ul>
+                </div>
+                <div class="guideline-card">
+                    <div class="guideline-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3 data-i18n="guidelines.options.title">Options incluses</h3>
+                    <ul class="guideline-list">
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.options.newsletter">Intégration newsletter</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.options.social">Partage réseaux sociaux</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.options.homepage">3 jours en homepage</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.options.authorityLink">Lien autorité offert</span></li>
+                    </ul>
+                </div>
+                <div class="guideline-card">
+                    <div class="guideline-icon">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                    <h3 data-i18n="guidelines.payment.title">Remises & Paiement</h3>
+                    <ul class="guideline-list">
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.payment.discount">-10% dès 3 articles</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.payment.secure">Paiement sécurisé</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.payment.methods">IBAN ou PayPal</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="guidelines.payment.invoice">Facture fournie</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sites-catalog" id="sites">
+        <div class="container">
+            <div class="catalog-header">
+                <div class="search-filters">
+                    <div class="search-container">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="search-input" data-i18n-placeholder="catalog.search">
+                    </div>
+                    <div class="keyword-filters" id="keyword-filters">
+                        <!-- Dynamically populated -->
+                    </div>
+                    <div class="filter-tags" id="theme-filters">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+                <div class="sort-container">
+                    <select id="sort-select">
+                        <optgroup label="Général">
+                            <option value="star-desc" data-i18n="filters.sortOptions.starsDesc">Etoiles (décroissant)</option>
+                            <option value="star-asc" data-i18n="filters.sortOptions.starsAsc">Etoiles (croissant)</option>
+                            <option value="price-desc" data-i18n="filters.sortOptions.priceDesc">Prix (décroissant)</option>
+                            <option value="price-asc" data-i18n="filters.sortOptions.priceAsc">Prix (croissant)</option>
+                        </optgroup>
+                        <optgroup label="Newsletter">
+                            <option value="subscribers-desc" data-i18n="filters.sortOptions.subscribersDesc">Abonnés newsletter (décroissant)</option>
+                            <option value="subscribers-asc" data-i18n="filters.sortOptions.subscribersAsc">Abonnés newsletter (croissant)</option>
+                            <option value="openrate-desc" data-i18n="filters.sortOptions.openrateDesc">Taux d'ouverture (décroissant)</option>
+                            <option value="openrate-asc" data-i18n="filters.sortOptions.openrateAsc">Taux d'ouverture (croissant)</option>
+                            <option value="frequency-desc" data-i18n="filters.sortOptions.frequencyDesc">Fréquence d'envoi (décroissant)</option>
+                            <option value="frequency-asc" data-i18n="filters.sortOptions.frequencyAsc">Fréquence d'envoi (croissant)</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+
+            <div class="websites-grid" id="websites-container">
+                <!-- Websites cards will be loaded here -->
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p data-i18n="loading">Loading websites...</p>
+                </div>
+            </div>
+            
+            <!-- Pagination container moved outside of websites-grid -->
+            <div id="pagination-container"></div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-grid">
+                <div class="cta-text">
+                    <h1 data-i18n="contact.title">Contact</h1>
+                    <h2 data-i18n="contact.subtitle">Vous avez une question, un commentaire ou vous souhaitez collaborer avec nous ?</h2>
+                    <p data-i18n="contact.description">Notre équipe est à votre écoute ! Que vous soyez intéressé par nos services, ayez une demande spécifique ou souhaitiez simplement échanger avec nous sur votre stratégie digitale, contactez-nous en remplissant le formulaire ci-contre ou en envoyant directement un email à seo+catalogue@publithings.com. Nous reviendrons rapidement vers vous avec une réponse personnalisée.</p>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Prénom et Nom</label>
+                                <input type="text" id="name" name="name" required class="form-input" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" id="email" name="email" required class="form-input" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Téléphone</label>
+                                <input type="tel" id="phone" name="phone" required class="form-input" />
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Objet de votre demande</label>
+                                <input type="text" id="subject" name="subject" required class="form-input" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="interested-websites" class="form-label">Marques qui vous intéressent</label>
+                            <select id="interested-websites" name="interested_websites" multiple class="form-input">
+                                <!-- Options will be populated dynamically -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" required class="form-input form-textarea"></textarea>
+                        </div>
+                        <div class="form-footer">
+                            <div class="g-recaptcha" data-sitekey="6LdNIzkrAAAAADjvwCU46dE7IP3xp2_fSJB7j7nu"></div>
+                            <div class="recaptcha-info">
+                                Ce site est protégé par reCAPTCHA et les 
+                                <a href="https://policies.google.com/privacy" target="_blank">règles de confidentialité</a> et les
+                                <a href="https://policies.google.com/terms" target="_blank">conditions d'utilisation</a> 
+                                de Google s'appliquent.
+                            </div>
+                            <button type="submit" class="submit-button">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="images/logo_publithings.svg" 
+                             alt="Publithings" 
+                             style="height: 40px; width: auto;">
+                    </div>
+                    <br>
+                    <p data-i18n="footer.description">Accédez à un réseau premium de médias influents, rigoureusement sélectionnés pour booster votre visibilité et maximiser vos résultats en référencement naturel. Renforcez votre stratégie SEO grâce à des backlinks puissants qui génèrent un impact immédiat et durable.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer.contact">Contact</h3>
+                    <p><i class="fas fa-envelope"></i> seo+catalogue@publithings.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-i18n="footer.followUs">Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="https://publithings.com/" aria-label="Website"><i class="fa fa-globe"></i></a>
+                        <a href="https://www.youtube.com/channel/UC--RodGgbysxTRiw0mSd5tw" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/company/publithings/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.rights">&copy; 2025 Publithings.com. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Website Details Modal -->
+    <div id="website-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Modal content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script>
+        function playVideo(button) {
+          const videoPlayer = button.parentElement;
+          const currentLang = document.documentElement.lang || 'fr';
+          const videoUrl = currentLang === 'fr' ? 
+            'https://www.youtube.com/embed/VIDEO_ID_FR?autoplay=1' : 
+            'https://www.youtube.com/embed/VIDEO_ID_EN?autoplay=1';
+          
+          const iframe = document.createElement('iframe');
+          iframe.src = videoUrl;
+          iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+          iframe.allowFullscreen = true;
+          
+          videoPlayer.innerHTML = '';
+          videoPlayer.appendChild(iframe);
+        }
+    </script>
+</body>
+</html>

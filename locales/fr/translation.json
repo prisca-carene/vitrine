@@ -1,0 +1,139 @@
+{
+  "header": {
+    "search": "Rechercher un site...",
+    "title": "Publithings Media Group",
+    "viewCatalog": "Voir le catalogue"
+  },
+  "hero": {
+    "badge": "Price list SEO Netlinking",
+    "titleStart": "Accélérez votre croissance digitale avec notre réseau média premium",
+    "subtitle": "Valorisez votre marque sur des médias influents grâce à des campagnes de netlinking, des contenus sponsorisés et des newsletters à forte portée.",
+    "discover": "Découvrir nos marques",
+    "contact": "Nous contacter",
+    "stats": {
+      "satisfaction": "Taux de satisfaction",
+      "visitors": "Visiteurs mensuels",
+      "rating": "Note moyenne"
+    }
+  },
+  "features": {
+    "title": "Pourquoi choisir nos marques ?",
+    "subtitle": "Notre réseau a été pensé pour générer des résultats concrets et durables en référencement naturel. En choisissant nos marques, vous accédez à une sélection rigoureuse de médias premium à haute autorité, soigneusement retenus selon des critères exigeants : autorité de domaine (DR), volume de trafic organique élevé, profil qualitatif de backlinks, cohérence thématique et historique SEO irréprochable.<br>Cette exigence vous garantit des liens pertinents, fiables et puissants, qui renforcent significativement l’efficacité et la portée de votre stratégie de référencement naturel.",
+    "metrics": {
+      "title": "Métriques transparentes",
+      "description": "Nous vous donnons accès aux métriques essentielles pour chaque média : Domain Rating (DR), volume de trafic, nombre et qualité des backlinks entrants, ainsi que d'autres indicateurs clés SEO. Cette transparence totale vous permet de choisir en toute confiance les marques les mieux adaptés à vos objectifs."
+    },
+    "trust": {
+      "title": "Marques de confiance",
+      "description": "Tous nos médias sont soigneusement vérifiés, actifs, régulièrement mis à jour et indexés par Google. Aucun risque de pénalité : votre stratégie de netlinking s'inscrit dans un cadre sécurisé, durable et performant."
+    },
+    "speed": {
+      "title": "Publication rapide",
+      "description": "Optimisez votre planning : vos articles sponsorisés sont publiés en moins de 72 heures après validation. Réactivité, efficacité et résultats rapides sont au coeur de notre service, pour maximiser immédiatement l'impact de vos campagnes."
+    }
+  },
+  "filters": {
+    "themes": "Filtrer par thématique",
+    "sort": "Trier par",
+    "allSites": "Tous nos marques",
+    "sortOptions": {
+      "starsDesc": "Étoiles (décroissant)",
+      "starsAsc": "Étoiles (croissant)",
+      "priceDesc": "Prix (décroissant)",
+      "priceAsc": "Prix (croissant)",
+      "subscribersDesc": "Abonnés newsletter (décroissant)",
+      "subscribersAsc": "Abonnés newsletter (croissant)",
+      "openrateDesc": "Taux d'ouverture (décroissant)",
+      "openrateAsc": "Taux d'ouverture (croissant)",
+      "frequencyDesc": "Fréquence d'envoi (décroissant)",
+      "frequencyAsc": "Fréquence d'envoi (croissant)"
+    },
+    "categories": {
+      "wellbeing": "Bien être",
+      "cbd": "CBD",
+      "construction": "Construction",
+      "content": "Contenu",
+      "event": "Événement",
+      "fantasy": "Fantasy",
+      "food": "Gastronomie et boissons",
+      "gift": "Cadeaux",
+      "health": "Santé",
+      "learning": "Apprentissage",
+      "home": "Maison",
+      "wellness": "Santé / Bien être",
+      "sport": "Sport",
+      "tech": "Tech"
+    }
+  },
+  "modal": {
+    "newBadge": "NOUVEAU",
+    "stars": "étoiles",
+    "newsletterSubscribers": "Abonnés newsletter",
+    "openRate": "Taux d'ouverture",
+    "clickRate": "Taux de clic",
+    "keywords": "Mots clés",
+    "showMore": "Voir {count} mots clés supplémentaires",
+    "hideMore": "Masquer les mots clés supplémentaires",
+    "pricing": "Tarifs",
+    "classicArticle": "Article classique",
+    "sensitiveArticleNonOpt": "Article sensible (ancre non-optimisée)",
+    "sensitiveArticleOpt": "Article sensible (ancre optimisée)",
+    "linkInsertion": "Insertion de lien",
+    "characteristics": "Caractéristiques",
+    "language": "Langue",
+    "googleNews": "Google News",
+    "googleIndex": "Google Index",
+    "internalLinks": "Maillage interne",
+    "majesticMetrics": "Métriques Majestic",
+    "links": "Liens",
+    "refDomains": "Domaines Référents",
+    "ratio": "Ratio",
+    "contactUs": "Nous contacter",
+    "startingFrom": "A partir de"
+  },
+  "loading": "Chargement des sites...",
+  "footer": {
+    "description": "Accédez à un réseau premium de médias influents, rigoureusement sélectionnés pour booster votre visibilité et maximiser vos résultats en référencement naturel. Renforcez votre stratégie SEO grâce à des backlinks puissants qui génèrent un impact immédiat et durable.",
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "rights": "&copy; 2025 Publithings.com. Tous droits réservés."
+  },
+  "guidelines": {
+    "title": "Comment ça marche ?",
+    "subtitle": "Notre processus est conçu pour être intuitif et fluide afin de vous simplifier la vie. Soumettez simplement votre contenu en respectant les consignes indiquées, validez rapidement votre commande et bénéficiez d'une publication rapide sur notre réseau exclusif. Profitez également de réductions avantageuses et d'un paiement sécurisé pour optimiser facilement votre stratégie SEO.",
+    "publication": {
+      "title": "Règles de publication",
+      "length": "Longueur : 800 mots",
+      "externalLinks": "2 liens externes dofollow",
+      "internalLinks": "1 lien interne dofollow",
+      "validation": "Publication après validation"
+    },
+    "options": {
+      "title": "Options incluses",
+      "newsletter": "Intégration newsletter",
+      "social": "Partage réseaux sociaux",
+      "homepage": "3 jours en page d'accueil",
+      "authorityLink": "Lien d'autorité gratuit"
+    },
+    "payment": {
+      "title": "Réductions & Paiement",
+      "discount": "-10% à partir de 3 articles",
+      "secure": "Paiement sécurisé",
+      "methods": "IBAN ou PayPal",
+      "invoice": "Facture fournie"
+    }
+  },
+  "cta": {
+    "title": "Prêt à booster votre SEO ?",
+    "subtitle": "Rejoignez dès aujourd'hui des centaines d'entreprises performantes qui s'appuient sur notre réseau premium pour maximiser leur visibilité en ligne.",
+    "contact": "Nous contacter"
+  },
+  "catalog": {
+    "search": "Rechercher un site..."
+  },
+  "contact":{
+      "title": "Contact",
+      "subtitle": "Vous avez une question, un commentaire ou vous souhaitez collaborer avec nous ?",
+      "description": "Notre équipe est à votre écoute ! Que vous soyez intéressé par nos services, ayez une demande spécifique ou souhaitiez simplement échanger avec nous sur votre stratégie digitale, contactez-nous en remplissant le formulaire ci-contre ou en envoyant directement un email à seo+catalogue@publithings.com. Nous reviendrons rapidement vers vous avec une réponse personnalisée."
+  }
+}
